@@ -1,0 +1,121 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="1.7.1" />
+    <PackageReference Include="Microsoft.ML.FastTree" Version="1.7.1" />
+    <PackageReference Include="Microsoft.ML.LightGbm" Version="1.7.1" />
+  </ItemGroup>
+  <ItemGroup Label="rec075">
+    <None Include="rec075.consumption.cs">
+      <DependentUpon>rec075.mbconfig</DependentUpon>
+    </None>
+    <None Include="rec075.training.cs">
+      <DependentUpon>rec075.mbconfig</DependentUpon>
+    </None>
+    <None Include="rec075.zip">
+      <DependentUpon>rec075.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup Label="rec080">
+    <None Include="rec080.consumption.cs">
+      <DependentUpon>rec080.mbconfig</DependentUpon>
+    </None>
+    <None Include="rec080.training.cs">
+      <DependentUpon>rec080.mbconfig</DependentUpon>
+    </None>
+    <None Include="rec080.zip">
+      <DependentUpon>rec080.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup Label="rec085">
+    <None Include="rec085.consumption.cs">
+      <DependentUpon>rec085.mbconfig</DependentUpon>
+    </None>
+    <None Include="rec085.training.cs">
+      <DependentUpon>rec085.mbconfig</DependentUpon>
+    </None>
+    <None Include="rec085.zip">
+      <DependentUpon>rec085.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup Label="rec090">
+    <None Include="rec090.consumption.cs">
+      <DependentUpon>rec090.mbconfig</DependentUpon>
+    </None>
+    <None Include="rec090.training.cs">
+      <DependentUpon>rec090.mbconfig</DependentUpon>
+    </None>
+    <None Include="rec090.zip">
+      <DependentUpon>rec090.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup Label="rec095">
+    <None Include="rec095.consumption.cs">
+      <DependentUpon>rec095.mbconfig</DependentUpon>
+    </None>
+    <None Include="rec095.training.cs">
+      <DependentUpon>rec095.mbconfig</DependentUpon>
+    </None>
+    <None Include="rec095.zip">
+      <DependentUpon>rec095.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup Label="rec075080">
+    <None Include="rec075080.consumption.cs">
+      <DependentUpon>rec075080.mbconfig</DependentUpon>
+    </None>
+    <None Include="rec075080.training.cs">
+      <DependentUpon>rec075080.mbconfig</DependentUpon>
+    </None>
+    <None Include="rec075080.zip">
+      <DependentUpon>rec075080.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup Label="rec080085">
+    <None Include="rec080085.consumption.cs">
+      <DependentUpon>rec080085.mbconfig</DependentUpon>
+    </None>
+    <None Include="rec080085.training.cs">
+      <DependentUpon>rec080085.mbconfig</DependentUpon>
+    </None>
+    <None Include="rec080085.zip">
+      <DependentUpon>rec080085.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup Label="rec085090">
+    <None Include="rec085090.consumption.cs">
+      <DependentUpon>rec085090.mbconfig</DependentUpon>
+    </None>
+    <None Include="rec085090.training.cs">
+      <DependentUpon>rec085090.mbconfig</DependentUpon>
+    </None>
+    <None Include="rec085090.zip">
+      <DependentUpon>rec085090.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup Label="rec090095">
+    <None Include="rec090095.consumption.cs">
+      <DependentUpon>rec090095.mbconfig</DependentUpon>
+    </None>
+    <None Include="rec090095.training.cs">
+      <DependentUpon>rec090095.mbconfig</DependentUpon>
+    </None>
+    <None Include="rec090095.zip">
+      <DependentUpon>rec090095.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
